@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>TXT Labs Coding Instructor</title>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="./src/styles.css" />
+  </head>
+
+  <body>
+    <h1>TXT Labs Coding Instructor Project</h1>
+
+    <p>Let's implement a basic Pokedex Tool.</p>
+    <p>We are looking for:</p>
+
+    <ol>
+      <li>
+        A dropdown that has a list of pokemon (at least 5) that the user can use
+        to set the currently active Pokemon.
+      </li>
+      <br />
+      <li>
+        A card should be displayed for the active Pokemon. It should contain the
+        name, image, and a brief description of the active Pokemon.
+      </li>
+      <br />
+      <li>
+        'Previous' and 'Next' buttons that, when pressed, will set the previous
+        or next Pokemon as active. When the Pokemon changes, also change the
+        text color, and background color to fit the Pokemon's theme (color
+        scheme)
+      </li>
+      <br />
+    </ol>
+
+    <p>
+      The interface does not have to be pristine, but we are looking for bug
+      free functionality. Therefore, we recommend you focus on the functionality
+      before spending too much time on the interface.
+    </p>
+
+    <p>
+      We set up the project for you. Please fork the project and complete the
+      missing sections. Once you are ready, send us the link to the forked
+      project.
+    </p>
+
+    <p>
+      If you have any questions please do not hesitate to reach out.
+    </p>
+
+    <p>
+      Tips:
+    </p>
+
+    <li>Research javascript DOM manipulation</li>
+    <li>Research how to manipulate CSS with javascript</li>
+
+    <br />
+
+    <div>
+      <select id="dropdown" onchange="onDropdownSelect()"> </select>
+
+      <button id="prev">Prev</button>
+
+      <button id="next">Next</button>
+    </div>
+
+    <!-- pokemon name should be updated here -->
+    <h1 id="name">Bulbasaur</h1>
+
+    <!-- pokemon image should be updated here -->
+    <img
+      id="image"
+      src="https://archives.bulbagarden.net/media/upload/thumb/f/fb/0001Bulbasaur.png/250px-0001Bulbasaur.png"
+      alt="pokemon image"
+      height="200px"
+      width="200px"
+    />
+
+    <!-- pokemon description should go here -->
+    <p id="desc">
+      Bulbasaur (Japanese: フシギダネ Fushigidane) is a dual-type Grass/Poison
+      Pokémon introduced in Generation I. It evolves into Ivysaur starting at
+      level 16, which evolves into Venusaur starting at level 32.
+    </p>
+
+    <script src="src/index.js"></script>
+  </body>
+</html>

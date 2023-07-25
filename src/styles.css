@@ -1,0 +1,56 @@
+/* Body styling */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #b7f870;
+  text-align: center;
+}
+
+/* Header styling */
+h1 {
+  font-size: 36px;
+  color: #90d0b4;
+  margin-bottom: 10px;
+}
+
+/* Dropdown styling */
+#dropdown {
+  padding: 8px;
+  font-size: 16px;
+  border: 2px solid #90d0b4;
+  background-color: #fff;
+  color: #333;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+/* Image styling */
+#image {
+  border-radius: 20%;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  margin-bottom: 20px;
+}
+
+/* Description styling */
+#desc {
+  font-size: 18px;
+  line-height: 1.6;
+  color: #555;
+  max-width: 600px;
+  margin: 0 auto 20px;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Button styling */
+button {
+  font-size: 18px;
+  background-color: #90d0b4;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  padding: 8px 16px;
+  margin: 5px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
